@@ -1,0 +1,18 @@
+html {
+    font-size: 62.5%;
+}
+
+body {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+font-size: 1.75rem;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+}
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+}
+
