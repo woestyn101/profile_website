@@ -1,18 +1,41 @@
-html {
-    font-size: 62.5%;
-}
 
-body {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-font-size: 1.75rem;
-}
-nav {
+header {
     display: flex;
-    flex-direction: row;
+   
 }
-ul {
-    list-style-type: none;
+
+nav {
+    background-color: #0082e6;
+    line-height: 1.5;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.logo {
+    color:white;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+ul li a {
+   
+    color:white;
+}
+
+a:link {
+    color:white;
     text-decoration: none;
-    display: inline;
+}
+
+a:visited {
+    color:white;
+}
+.nav-item {
+    margin-right: 10px;
+    
 }
 
