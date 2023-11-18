@@ -46,8 +46,7 @@ a:visited {
 .top-bar {
     width:100%;
     height: 100px;    
-    background-image: url("images/headbanner.svg");
-    border: 3px solid black;
+    background-image: url("images/headbanner.svg");   
     text-align: right;
 
 }
@@ -64,4 +63,80 @@ a:visited {
    
 }
 
+.container {
+    display:grid;
+    height:120vh;
+    grid-template-rows: 1fr 4fr 4fr 2fr 2fr 1fr;
+    grid-template-columns: 1fr 1.5fr 1.5fr;
+    grid-gap: 0.5rem;
+}
 
+.side-aboutme {
+    grid-row: 1 / 2;
+    grid-column: 1/  2;
+    
+}
+.side-work {
+    grid-row: 2 / 3;
+    grid-column: 1/  2;
+   
+}
+
+.side-contactme {
+    grid-row: 6/ 7;
+    grid-column: 1/ 2;
+    
+}
+
+.aboutme-content {
+    grid-row: 1 / 2;
+    grid-column:2/ 4;
+}
+.main-project {
+    grid-row: 2 / 4;
+    grid-column:2/ 4;
+    background-image: url("images/dice8.jpg");  
+    background-repeat: cover;
+    background-position: center center;
+    background-size: auto;
+    color: white; 
+   
+}
+
+.project-2 {
+    grid-row: 4 / 5;
+    grid-column:2/ 3;
+    background-image: url("images/marcus-aurelius3.jpg");  
+    background-repeat: cover;
+    background-position: center center;
+    background-size: auto;
+}
+.project-3 {
+    grid-row: 4 / 5;
+    grid-column:3/ 4;
+    background-image: url("images/math3.jpg"); 
+    background-repeat: cover;
+    background-position: center center;
+    background-size: auto; 
+}
+.project-4 {
+    grid-row: 5 / 6;
+    grid-column:2/ 3;
+    background-image: url("images/guess_game2.jpg");  
+    background-repeat: cover;
+    background-position: center center;
+    background-size: auto;
+}
+.project-5 {
+    grid-row: 5 / 6;
+    grid-column:3/ 4;
+    background-image: url("images/web3.jpg");  
+    background-repeat: cover;
+    background-position: center center;
+    background-size: auto;
+}
+
+.footer-info {
+    grid-row: 6 / 7;
+    grid-column:2/ 4;
+}
