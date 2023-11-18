@@ -64,6 +64,7 @@ a:visited {
 }
 
 .container {
+    
     display:grid;
     height:120vh;
     grid-template-rows: 1fr 4fr 4fr 2fr 2fr 1fr;
@@ -93,17 +94,57 @@ a:visited {
     grid-column:2/ 4;
 }
 .main-project {
+    display: flex;
+    align-items: flex-end;
     grid-row: 2 / 4;
     grid-column:2/ 4;
     background-image: url("images/dice8.jpg");  
     background-repeat: cover;
     background-position: center center;
-    background-size: auto;
-    color: white; 
-   
+    background-size: auto; 
+}
+
+.main-grid-p {
+background-color: white;
+display: inline-block;
+justify-self: flex-end;
+padding:10px 5px;
+text-align: center;
+margin: 10px;
+
+
+}
+
+.sub-grid-p {
+    background-color: white;
+    color: #0f2a47;
+    display: inline-block;
+    justify-self: flex-end;
+    padding:3px 6px;
+    text-align: center;
+    margin: 10px;
+    font-weight:500;
+    }
+
+
+
+.title {
+    font-size: xx-large;
+    font-weight: bold;  
+    color: #0f2a47;
+
+}
+
+.title2 { 
+    font-size: large;
+    font-weight: bold;  
+    color: #0f2a47
+
 }
 
 .project-2 {
+    display: flex;
+    align-items: flex-end;
     grid-row: 4 / 5;
     grid-column:2/ 3;
     background-image: url("images/marcus-aurelius3.jpg");  
@@ -112,6 +153,8 @@ a:visited {
     background-size: auto;
 }
 .project-3 {
+    display: flex;
+    align-items: flex-end;
     grid-row: 4 / 5;
     grid-column:3/ 4;
     background-image: url("images/math3.jpg"); 
@@ -120,6 +163,8 @@ a:visited {
     background-size: auto; 
 }
 .project-4 {
+    display: flex;
+    align-items: flex-end;
     grid-row: 5 / 6;
     grid-column:2/ 3;
     background-image: url("images/guess_game2.jpg");  
@@ -128,6 +173,8 @@ a:visited {
     background-size: auto;
 }
 .project-5 {
+    display: flex;
+    align-items: flex-end;
     grid-row: 5 / 6;
     grid-column:3/ 4;
     background-image: url("images/web3.jpg");  
